@@ -23,13 +23,8 @@ def contact():
 def careers():
     return render_template("careers.html")
 
-<<<<<<< HEAD
-@app.route('/base')
-def base():
-    return render_template("base.html")
 
-=======
->>>>>>> 3b243634b1179f15bd8c99196c42925a5b2a4e18
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
